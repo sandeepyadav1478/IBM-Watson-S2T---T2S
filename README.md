@@ -5,3 +5,6 @@ required files to download with pip
 1.PyQt5
 2.ibm_watson
 3.ibm_cloud
+
+
+Need to setup autenticatior data at ibm watson cloud plateform also
