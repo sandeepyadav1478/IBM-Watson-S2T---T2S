@@ -21,12 +21,12 @@ from ibm_watson import TextToSpeechV1
 from ibm_watson import SpeechToTextV1
 from ibm_watson import ApiException
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
-api=IAMAuthenticator("Fr1sIw0MVmpEnBzMQQifCVqW8g8gUrwT0yLFeCnwG4gn")
+api=IAMAuthenticator("xxxxxxxxxxxxxxxxxxxxxxxxxxx")  #your authenticator id
 speech2 = SpeechToTextV1(authenticator=api)
-speech2.set_service_url("https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/c5ca64ad-da78-48ba-8908-46692d80216e")
-api1=IAMAuthenticator("oy7NkalihbjECm8i9zNBH01jIfEnGWuVAu01fwwk57Sj")
+speech2.set_service_url("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") # your service url
+api1=IAMAuthenticator("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")                                       #your authenticator id
 text2 = TextToSpeechV1(authenticator=api1)
-text2.set_service_url("https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/13fa20c6-adcc-4a12-a4a7-d788d384a3c0")
+text2.set_service_url("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")  # your service url
 mybeep=notes.beeps(200)
 class MainWindow(QMainWindow):
     fileName=""
